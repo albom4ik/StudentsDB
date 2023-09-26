@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,39 +47,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\ModelAbstract.cs" />
-    <Compile Include="ChooseTable.cs">
+    <Compile Include="Abstract\FormModelAbstract.cs" />
+    <Compile Include="Forms\ChooseTable.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChooseTable.Designer.cs">
+    <Compile Include="Forms\ChooseTable.Designer.cs">
       <DependentUpon>ChooseTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Context.cs" />
-    <Compile Include="Interfaces\IForm.cs" />
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Forms\MarksReview.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Forms\MarksReview.Designer.cs">
+      <DependentUpon>MarksReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentsReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentsReview.Designer.cs">
+      <DependentUpon>StudentsReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentsTableReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentsTableReview.Designer.cs">
+      <DependentUpon>StudentsTableReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IForm.cs" />
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentsDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StudentsDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="TableTamplate.cs">
+    <Compile Include="Forms\TableTamplate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TableTamplate.Designer.cs">
+    <Compile Include="Forms\TableTamplate.Designer.cs">
       <DependentUpon>TableTamplate.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ChooseTable.resx">
+    <EmbeddedResource Include="Forms\ChooseTable.resx">
       <DependentUpon>ChooseTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MarksReview.resx">
+      <DependentUpon>MarksReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentsReview.resx">
+      <DependentUpon>StudentsReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentsTableReview.resx">
+      <DependentUpon>StudentsTableReview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,7 +112,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="TableTamplate.resx">
+    <EmbeddedResource Include="Forms\TableTamplate.resx">
       <DependentUpon>TableTamplate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -101,17 +124,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="StudentsDataSet.xsc">
-      <DependentUpon>StudentsDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="StudentsDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>StudentsDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="StudentsDataSet.xss">
-      <DependentUpon>StudentsDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

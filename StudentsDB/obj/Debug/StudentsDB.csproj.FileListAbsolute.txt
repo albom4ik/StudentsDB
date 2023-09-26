@@ -1,0 +1,16 @@
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.csproj.AssemblyReference.cache
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.csproj.SuggestedBindingRedirects.cache
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.ChooseTable.resources
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.LoginForm.resources
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.Properties.Resources.resources
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.TableTamplate.resources
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.csproj.GenerateResource.cache
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.csproj.CoreCompileInputs.cache
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\bin\Debug\StudentsDB.exe.config
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\bin\Debug\StudentsDB.exe
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\bin\Debug\StudentsDB.pdb
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.exe
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.pdb
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.Forms.MarksReview.resources
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.Forms.StudentsReview.resources
+C:\Users\letnull19a\Desktop\StudentsDB\StudentsDB\obj\Debug\StudentsDB.Forms.StudentsTableReview.resources
